@@ -1,6 +1,3 @@
--La funcion direccion_palabra() ya devuelve las ubicaciones de la cuadricula de izquieda a derecha de acuerdo al largo de la palabra. También reseta la ubicacion de la primera letra
-en caso de que supere el limite de la cuadricula.
-
--Faltaria implementar este mismo codigo a todas las posibles direcciones de la palabra dentro de la sopa de letra. Es decir, horizontal  de derecha a izquierda,
-vertical de arriba abajo, vertical de abajo a arriba, diagonal hacia arriba de izquierda a derecha, diagonal hacia abajo de izquierda a derecha,
-diagional hacia abajo de derecha a izquierda y diagonal hacia arriba de derecha a izquierda.
+-Se agregaron todas las posibles direcciones de las palabras en la sopa de letras y en caso de que la palabra supere el tamaño de la grilla esta intentara reacomodarse enla grilla de nuevo.
+-Faltaria implementarlo a nivel grafico y seria necesario hacer que se reconozca si el espacio de cada letra esta ocupado al momento de ingresar una nueva palabra y de ser asi
+la palabra solo se imprimira en pantalla si ambas letras coinciden. En el caso contrario la palabra buscara una nueva ubicacion.  
