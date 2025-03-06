@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cst08b3mcccfy"
-path="res://.godot/imported/grilla.png-11d3ddc249ae55196bd6b8c7d6ccbb72.ctex"
+uid="uid://clw2ducq61d1w"
+path="res://.godot/imported/fondo_palabras.png-e7c2f2a80882c7e85fcdb9fe6308b440.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://grilla.png"
-dest_files=["res://.godot/imported/grilla.png-11d3ddc249ae55196bd6b8c7d6ccbb72.ctex"]
+source_file="res://fondo_palabras.png"
+dest_files=["res://.godot/imported/fondo_palabras.png-e7c2f2a80882c7e85fcdb9fe6308b440.ctex"]
 
 [params]
 

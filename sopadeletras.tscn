@@ -1,6 +1,32 @@
-[gd_scene load_steps=2 format=3 uid="uid://noy4urld8lr8"]
+[gd_scene load_steps=3 format=3 uid="uid://bugp1r0ck7jp"]
 
-[ext_resource type="Script" path="res://sopadeletras.gd" id="1_na13t"]
+[ext_resource type="Script" path="res://node_2d.gd" id="1_k5e7c"]
+[ext_resource type="Texture2D" uid="uid://clw2ducq61d1w" path="res://fondo_palabras.png" id="2_r5y5v"]
 
-[node name="sopadeletras" type="Node2D"]
-script = ExtResource("1_na13t")
+[node name="Node2D" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_k5e7c")
+
+[node name="FondoPalabras" type="Sprite2D" parent="."]
+position = Vector2(522, 202)
+scale = Vector2(1.1031, 1.20997)
+texture = ExtResource("2_r5y5v")
+
+[node name="GridContainer" type="GridContainer" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="BotonGenerar" type="Button" parent="."]
+offset_left = 8.0
+offset_top = 474.0
+offset_right = 179.0
+offset_bottom = 505.0
+text = "Nueva sopa de letras"
+
+[node name="PalabrasContainer" type="VBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 477.0
+offset_top = 44.0
+offset_right = 517.0
+offset_bottom = 84.0

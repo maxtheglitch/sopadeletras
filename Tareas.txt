@@ -1,3 +1,0 @@
--Se agregaron todas las posibles direcciones de las palabras en la sopa de letras y en caso de que la palabra supere el tamaño de la grilla esta intentara reacomodarse enla grilla de nuevo.
--Faltaria implementarlo a nivel grafico y seria necesario hacer que se reconozca si el espacio de cada letra esta ocupado al momento de ingresar una nueva palabra y de ser asi
-la palabra solo se imprimira en pantalla si ambas letras coinciden. En el caso contrario la palabra buscara una nueva ubicacion.  
