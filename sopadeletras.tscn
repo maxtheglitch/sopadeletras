@@ -14,10 +14,12 @@ scale = Vector2(1.1031, 1.20997)
 texture = ExtResource("2_r5y5v")
 
 [node name="GridContainer" type="GridContainer" parent="."]
+layout_mode = 0
 offset_right = 40.0
 offset_bottom = 40.0
 
 [node name="BotonGenerar" type="Button" parent="."]
+layout_mode = 0
 offset_left = 8.0
 offset_top = 474.0
 offset_right = 179.0
